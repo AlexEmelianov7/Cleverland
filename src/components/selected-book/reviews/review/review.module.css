@@ -1,0 +1,52 @@
+.review {
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+.userBlock {
+  display:flex;
+  align-items:center;
+  gap:24px;
+}
+.userInfoBlock {
+  display:flex;
+  gap:24px;
+}
+.userInfo {
+  font-family:'Montserrat', sans-serif;
+  font-style:normal;
+  font-weight:400;
+  font-size:16px;
+  line-height:24px;
+  letter-spacing:0.1px;
+  color:#727272;
+}
+.text {
+  font-family:'Montserrat', sans-serif;
+  font-style:normal;
+  font-weight:400;
+  font-size:16px;
+  line-height:24px;
+  letter-spacing:0.1px;
+  color:#363636;
+}
+@media (max-width:670px) {
+  .reviews {
+    gap:32px;
+  }
+  .review {
+    gap:8px;
+  }
+  .userBlock {
+    gap:18px;
+  }
+  .userInfoBlock {
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+  }
+  .userInfo, .text {
+    font-size:15px;
+    line-height:20px;
+  }
+}

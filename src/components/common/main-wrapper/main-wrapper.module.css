@@ -1,0 +1,31 @@
+.wrapper {
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+}
+.main {
+  max-width:1140px;
+  padding:0 15px;
+  margin:0 auto;
+  display:flex;
+  flex-direction:column;
+  /*height:100%;*/
+  flex:1 1;
+  width:100%;
+}
+.bookMain {
+  flex:1 1;
+}
+
+@media (max-width:830px) {
+  .main {
+    max-width:768px;
+    padding:0 64px;
+  }
+}
+@media (max-width:670px) {
+  .main {
+    max-width:320px;
+    padding:0 16px;
+  }
+}

@@ -1,0 +1,8 @@
+.reviews {
+  max-width:730px;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  gap:42px;
+}
+

@@ -1,0 +1,44 @@
+.loaderWrapper {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:1000;
+  padding:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(54, 54, 54, 0.3);
+  backdrop-filter:blur(10px);
+}
+.loader {
+  animation:loader 1s cubic-bezier(0.79, 0.33, 0.14, 0.53) infinite;
+  z-index:1001;
+}
+.loader img {
+  width:68px;
+  height:68px;
+}
+
+@keyframes loader {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
+
+@media (max-width:830px) {
+  .loader img{
+    width:44px;
+    height:44px;
+  }
+}
+@media (max-width:400px) {
+  .loader img{
+    width:22px;
+    height:22px;
+  }
+}

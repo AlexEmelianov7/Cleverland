@@ -1,0 +1,266 @@
+.selectedBook {
+  display:flex;
+  flex-direction:column;
+  gap:42px;
+  max-width:1140px;
+  margin:0 auto;
+  padding:0 15px;
+}
+.topSide {
+  display:grid;
+  grid-template-areas:'A A A A B'
+    'A A A A B'
+    'A A A A C'
+    'A A A A C';
+  gap:30px;
+  margin:42px 0 0 0;
+}
+.topImg {
+  grid-area:A;
+  width:445px;
+  height:593px;
+}
+.summary {
+  grid-area:B;
+  display:flex;
+  flex-direction:column;
+}
+.title {
+  font-family:'Montserrat', sans-serif;
+  font-style:normal;
+  font-weight:700;
+  font-size:32px;
+  line-height:40px;
+  letter-spacing:0.1px;
+  color:#363636;
+}
+.info {
+  padding:24px 0 32px;
+  font-family:'Montserrat', sans-serif;
+  font-style:normal;
+  font-weight:700;
+  font-size:18px;
+  line-height:28px;
+  display:flex;
+  align-items:center;
+  letter-spacing:0.1px;
+  color:#A7A7A7;
+}
+.selectedBookBtn {
+  border-radius:30px;
+  text-align:center;
+  padding:14px 0;
+  width:350px;
+  font-size:16px;
+  line-height:150%;
+}
+.infoBlockAbout, .infoBlockRating, .infoBlockDetailed, .infoBlockReviews {
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+.infoBlockAbout {
+  grid-area:C;
+  padding:28px 0 0;
+}
+.infoTitle {
+  width:350px;
+  display:flex;
+  align-items:center;
+  gap:6px;
+  border-bottom:1px solid #EBEBEB;
+  padding:0 0 16px 0;
+  font-family:'Montserrat', sans-serif;
+  font-style:normal;
+  font-weight:700;
+  font-size:18px;
+  line-height:28px;
+  letter-spacing:0.1px;
+  color:#363636;
+}
+.rating, .noRating {
+  display:flex;
+  align-items:center;
+  gap:24px;
+}
+.rating {
+  font-family:'Montserrat', sans-serif;
+  font-style:normal;
+  font-weight:700;
+  font-size:18px;
+  line-height:28px;
+  letter-spacing:0.1px;
+  color:#363636;
+}
+.noRating {
+  font-family:'Montserrat', sans-serif;
+  font-style:normal;
+  font-weight:400;
+  font-size:14px;
+  line-height:18px;
+  letter-spacing:0.1px;
+  color:#363636;
+}
+.infoBlockDetailed, .infoBlockReviews {
+  padding:20px 0 0;
+}
+.description {
+  font-family:'Montserrat', sans-serif;
+  font-style:normal;
+  font-weight:400;
+  font-size:16px;
+  line-height:24px;
+  letter-spacing:0.1px;
+  color:#363636;
+  white-space:pre-wrap;
+}
+.bottomSide {
+  display:flex;
+  flex-direction:column;
+  gap:42px;
+}
+.reviewsNum {
+  font-family:'Montserrat', sans-serif;
+  font-style:normal;
+  font-weight:400;
+  font-size:14px;
+  line-height:24px;
+  letter-spacing:0.1px;
+  color:#A7A7A7;
+}
+.chevron {
+  margin-left:18px;
+  background:none;
+  border:none;
+  cursor:pointer;
+}
+.chevronClosed {
+  transform:rotate(180deg);
+}
+.rateBookButton {
+  font-size:16px;
+  line-height:150%;
+  width:350px;
+  padding:14px 0;
+  margin:16px 0 0;
+  border-radius:30px;
+}
+.reviewsClosed {
+  display:none;
+}
+@media (max-width:870px) {
+  .selectedBook {
+    gap:52px;
+    max-width:768px;
+    padding:0 64px;
+  }
+  .topSide {
+    grid-template-areas:'A A B B B'
+      'A A B B B'
+      'C C C C C'
+      'C C C C C';
+    gap:32px;
+    margin:48px 0 0 0;
+  }
+  .topImg {
+    width:136px;
+    height:198px;
+  }
+  .title {
+    font-size:24px;
+    line-height:30px;
+  }
+  .info {
+    padding:24px 0 32px;
+    font-weight:600;
+    font-size:14px;
+    line-height:18px;
+  }
+  .selectedBookBtn {
+    width:306px;
+  }
+  .bottomSide {
+    gap:52px;
+  }
+  .infoTitle {
+    width:305px;
+    font-size:16px;
+    line-height:24px;
+  }
+  .infoBlockDetailed {
+    padding:0;
+  }
+  .infoBlockReviews {
+    padding:0;
+  }
+  .rateBookButton {
+    width:100%;
+    margin-top:26px;
+  }
+}
+@media (max-width:670px) {
+  .selectedBook {
+    max-width:320px;
+    padding:0 16px;
+    gap:42px;
+  }
+  .topSide {
+    grid-template-areas:'A A A A A'
+      'B B B B B'
+      'C C C C C';
+    justify-items:center;
+    margin:20px 0 0 0;
+    gap:16px;
+  }
+  .topImg {
+    height:260px;
+    width:188px;
+  }
+  .title {
+    font-size:18px;
+    line-height:28px;
+  }
+  .info {
+    padding:8px 0 42px;
+    font-weight:400;
+    font-size:12px;
+    line-height:18px;
+  }
+  .selectedBookBtn {
+    width:100%;
+    padding:11px 0;
+    font-size:12px;
+    line-height:18px;
+  }
+  .infoBlockAbout {
+    gap:0;
+  }
+  .description {
+    font-size:12px;
+    line-height:18px;
+  }
+  .description:nth-child(2) {
+    padding:8px 0 0 0;
+  }
+  .infoBlockRating, .infoBlockDetailed, .infoBlockReviews {
+    gap:8px;
+  }
+  .infoTitle {
+    width:100%;
+    font-size:18px;
+    line-height:28px;
+    padding:0 0 8px 0;
+  }
+  .bottomSide {
+    gap:24px;
+  }
+  .infoBlockReviews {
+    padding-top:18px;
+  }
+  .rateBookButton {
+    padding:11px 0;
+    font-size:12px;
+    line-height:18px;
+    margin-top:12px;
+  }
+}

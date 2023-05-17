@@ -1,0 +1,25 @@
+.bookListTile {
+  display:flex;
+  flex-wrap:wrap;
+  gap:21.5px;
+}
+.bookList {
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+@media (max-width:1000px) {
+  .bookListTile {
+    justify-content:center;
+  }
+}
+@media (max-width:768px) {
+  .bookListTile {
+    gap:35px;
+  }
+}
+@media (max-width:400px) {
+  .bookListTile {
+    gap:16px;
+  }
+}

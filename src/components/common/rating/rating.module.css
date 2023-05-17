@@ -1,0 +1,6 @@
+.rating {
+  display:inline-flex;
+}
+.star {
+  margin-right:8px;
+}

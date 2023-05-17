@@ -1,0 +1,13 @@
+.modalWrapper {
+  position:relative;
+  width:528px;
+  padding:48px 56px;
+  border-radius:16px;
+  background-color:#FFFFFF;
+}
+@media (max-width:528px) {
+  .modalWrapper {
+    padding:24px 16px;
+    width:100%;
+  }
+}

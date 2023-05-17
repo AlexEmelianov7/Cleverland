@@ -1,0 +1,40 @@
+.contentMenu {
+  display:flex;
+  justify-content:space-between;
+}
+.searchMenu {
+  display:flex;
+  gap:16px;
+  width:100%;
+}
+.cancelButton {
+  display:flex;
+  border:none;
+  background:none;
+  cursor:pointer;
+}
+.activeSearchIcon path{
+  background:linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+}
+@media (max-width:670px) {
+  .searchInputWrapperMobile {
+    width:100%;
+    border-radius:599px;
+    padding:0 16px;
+  }
+  .searchInputMobile {
+    display:flex;
+  }
+  .searchInputMobile::placeholder {
+    font-family:'Montserrat', sans-serif;
+    font-style:normal;
+    font-weight:400;
+    font-size:14px;
+    line-height:18px;
+    letter-spacing:0.1px;
+    color:#A7A7A7;
+  }
+  .hide {
+    display:none;
+  }
+}

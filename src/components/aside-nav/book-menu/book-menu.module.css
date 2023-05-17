@@ -1,0 +1,6 @@
+.bookMenu {
+  padding:0 0 0 20px;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}

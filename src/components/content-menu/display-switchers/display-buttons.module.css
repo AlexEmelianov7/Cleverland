@@ -1,0 +1,30 @@
+.displaySwitchers {
+  display:flex;
+  gap:16px;
+}
+.displayButton {
+  padding:9.5px;
+  background:#FFFFFF;
+  border:none;
+  border-radius:50%;
+  filter:drop-shadow(0px 2px 4px rgba(191, 196, 201, 0.2)) drop-shadow(0px 3px 4px rgba(191, 196, 201, 0.18)) drop-shadow(0px 1px 5px rgba(191, 196, 201, 0.24));
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:38px;
+  height:38px;
+  cursor:pointer;
+}
+.activeTile, .activeList {
+  background:linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+}
+.svgActive {
+  fill:#FFFFFF;
+}
+@media (max-width:670px) {
+  .displayButton {
+    padding:8px;
+    width:32px;
+    height:32px;
+  }
+}

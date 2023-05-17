@@ -1,0 +1,85 @@
+.termsContractPage {
+  padding:32px 0;
+  display:flex;
+  gap:30px;
+}
+.pageTitle {
+  font-family:'Montserrat', sans-serif;
+  font-style:normal;
+  font-weight:700;
+  font-size:32px;
+  line-height:40px;
+  letter-spacing:0.1px;
+  color:#363636;
+}
+.pageContent, .numList {
+  display:flex;
+  flex-direction:column;
+  gap:32px;
+}
+.numList li {
+  padding:0 0 0 30px;
+}
+.numList > li {
+  padding:0;
+}
+.pageContent ol {
+  list-style:none;
+  counter-reset:li;
+}
+.pageContent li:before {
+  counter-increment:li;
+  content:counters(li,'.') '. ';
+}
+.paragraphTitle {
+  font-family:'Montserrat', sans-serif;
+  font-style:normal;
+  font-weight:600;
+  font-size:16px;
+  line-height:24px;
+  letter-spacing:0.1px;
+  color:#363636;
+}
+.paragraphTitle li {
+  font-weight:400;
+}
+.paragraphSubTitle:first-child {
+  padding-top:16px;
+}
+.paragraph, .subParagraph, .subSubParagraph {
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+.subParagraph:first-child {
+  padding-top:16px;
+}
+.subSubParagraph:first-child {
+  padding-top:16px;
+}
+@media (max-width:956px) {
+  .termsContractPage nav {
+    display:none;
+  }
+}
+@media (max-width:870px) {
+  .termsContractPage {
+    padding:32px 0 62px;
+  }
+}
+@media (max-width:400px) {
+  .termsContractPage {
+    padding:32px 0 24px;
+  }
+  .pageContent {
+    gap:24px;
+  }
+  .pageTitle{
+    font-size:18px;
+    line-height:28px;
+  }
+  .paragraphTitle li {
+    font-size:15px;
+    line-height:20px;
+  }
+}

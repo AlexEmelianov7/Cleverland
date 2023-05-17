@@ -1,0 +1,31 @@
+.filterButton {
+  padding:10px 16px;
+  box-shadow:0 2px 4px rgba(191, 196, 201, 0.2), 0 3px 4px rgba(191, 196, 201, 0.18), 0 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius:599px;
+  border:none;
+  background:#FFFFFF;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  font-family:'Montserrat', sans-serif;
+  font-style:normal;
+  font-weight:400;
+  font-size:14px;
+  line-height:18px;
+  letter-spacing:0.1px;
+  color:#A7A7A7;
+}
+
+@media (max-width:670px) {
+  .filterButton {
+    width:32px;
+    height:32px;
+    padding:8px;
+    border-radius:50%;
+  }
+  .filterButton p {
+    display:none;
+  }
+}

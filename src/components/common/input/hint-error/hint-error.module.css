@@ -1,0 +1,13 @@
+.hint {
+  color:#A7A7A7;
+  margin:4px 0 0 12px;
+  font-size:12px;
+  line-height:16px;
+  font-weight:500;
+}
+.fullColored {
+  color:#F42C4F;
+}
+.highlight.active {
+  color:#F42C4F;
+}

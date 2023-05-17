@@ -1,0 +1,8 @@
+.bookPage {
+  padding:42px 0;
+}
+@media (max-width:670px) {
+  .bookPage {
+    padding:32px 0 20px;
+  }
+}

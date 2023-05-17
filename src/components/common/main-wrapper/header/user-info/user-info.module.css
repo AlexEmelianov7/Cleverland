@@ -1,0 +1,20 @@
+.userInfo {
+  display:flex;
+  align-items:center;
+  gap:16px;
+  cursor:pointer;
+}
+.userGreeting {
+  font-family:'Montserrat', sans-serif;
+  font-style:normal;
+  font-weight:600;
+  font-size:14px;
+  line-height:18px;
+  letter-spacing:0.1px;
+  color:#363636;
+}
+@media (max-width:956px) {
+  .userInfo {
+    display:none;
+  }
+}
