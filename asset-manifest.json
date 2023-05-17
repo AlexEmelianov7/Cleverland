@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Cleverland/static/css/main.2355daa6.css",
+    "main.js": "/Cleverland/static/js/main.d1611d86.js",
+    "static/media/logo.svg": "/Cleverland/static/media/logo.143831f5b8d2c861f037d1b064a3d014.svg",
+    "static/media/loader.svg": "/Cleverland/static/media/loader.5822d56d9ea0feb9cf17e6f40f70b2aa.svg",
+    "static/media/modal-close.svg": "/Cleverland/static/media/modal-close.edd00f9ca8551e19630a3b46e2c21b18.svg",
+    "static/media/close-eye.svg": "/Cleverland/static/media/close-eye.a70b2db5ea90a53c72235ff8903bb78c.svg",
+    "static/media/rating-star.svg": "/Cleverland/static/media/rating-star.aa9461c48c300c8ff9b8b1d2c2c4a7dc.svg",
+    "static/media/chevron-colored.svg": "/Cleverland/static/media/chevron-colored.ad6457468f8d0dee1a551a1fc3e79ba9.svg",
+    "static/media/close.svg": "/Cleverland/static/media/close.8575e7decb66b89d658dfc5f7e41c08b.svg",
+    "index.html": "/Cleverland/index.html",
+    "static/media/warning-circle.svg": "/Cleverland/static/media/warning-circle.d0f931225b9332388d0b94a1c3414a6c.svg",
+    "static/media/open-eye.svg": "/Cleverland/static/media/open-eye.f823b8f94cb096250855d2f0d4ba0a87.svg",
+    "static/media/rating-empty-star.svg": "/Cleverland/static/media/rating-empty-star.ac1c561b4c297bac6faafbe8657b08b1.svg",
+    "static/media/arrow-down.svg": "/Cleverland/static/media/arrow-down.1d3eda62af52e86066434beb2d684b4d.svg",
+    "static/media/arrow-up.svg": "/Cleverland/static/media/arrow-up.8fa6f660f3c7c76004ba163a9373fade.svg",
+    "static/media/chevron.svg": "/Cleverland/static/media/chevron.f76cf6bce194f528a1fe9ab401297f55.svg",
+    "static/media/nav-arrow.svg": "/Cleverland/static/media/nav-arrow.278783190b4c103035f28aab9d63fdb0.svg",
+    "static/media/nav-arrow-grey.svg": "/Cleverland/static/media/nav-arrow-grey.613d1bd4af3772bf515dcc692d7062c7.svg",
+    "static/media/check.svg": "/Cleverland/static/media/check.06f9aa8f375b7d43f09f753b306dbc91.svg",
+    "static/media/arrow_drop_down.svg": "/Cleverland/static/media/arrow_drop_down.ff1fbb418a503b25ce55f5b5452187c6.svg",
+    "main.2355daa6.css.map": "/Cleverland/static/css/main.2355daa6.css.map",
+    "main.d1611d86.js.map": "/Cleverland/static/js/main.d1611d86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2355daa6.css",
+    "static/js/main.d1611d86.js"
+  ]
+}
